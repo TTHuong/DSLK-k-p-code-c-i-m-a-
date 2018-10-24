@@ -1,2 +1,1 @@
-# DSLK-k-p-code-c-i-m-a-
-code cùi mía
+# DSLK (cau truc du lieu va giai thuat)
