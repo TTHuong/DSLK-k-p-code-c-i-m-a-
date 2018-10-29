@@ -89,7 +89,7 @@ void inragiamdan(list&l){
 	sv x;
 	for(node*k=l.dau;k!=l.cuoi;k=k->truoc){
 		for(node*m=k->truoc;m!=NULL;m=m->truoc){
-			if(k->data.tb<m->data.tb){
+			if(k->data.ten<m->data.ten){
 				x=k->data;
 				k->data=m->data;
 				m->data=x;
