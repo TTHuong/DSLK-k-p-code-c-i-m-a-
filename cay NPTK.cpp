@@ -135,9 +135,10 @@ void xoanode(cay &c,string x){
 void giaiphong(cay &c){
 	if(c==NULL)return;
 	if(c){
-		delete c;		
+				
 		giaiphong(c->trai);
 		giaiphong(c->phai);
+		delete c;
 	}
 }
 void luutuoivaomang(sv a[],int &i,cay &c){
